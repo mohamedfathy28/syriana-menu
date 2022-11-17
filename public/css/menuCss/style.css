@@ -1,0 +1,253 @@
+.scrolling-wrapper{
+    overflow-x: auto;
+}
+
+body{
+    background-color: black;
+    color: #fff;
+    font-family: 'system-ui';
+}
+
+h1{
+    font-weight: 700;
+    font-size: 3.4em;
+}
+h4{
+color: #fff;
+}
+a {text-decoration: none;
+}
+.fa, .fas {
+  font-weight: 900;
+  background-color: #ccc;
+  border-radius: 20px;
+  padding: 5px;
+}
+.fa, .fas:hover {
+ background-color: red;
+}
+p.aligned {
+  padding-bottom: 20px;
+  padding-top: 15px;
+  color: #fff;
+}
+span.price {
+  color: #fff;
+}
+.container.logo {
+  top: 30px;
+  position: relative;
+  padding-bottom: 20px;
+}
+nav.nav.scrolling-wrapper.row.flex-row.flex-nowrap.mt-4.pb-4.pt-2 {
+    margin: 0;
+}
+.subtitle{
+    font-size: 1.25em;
+    opacity: 0.65;
+}
+button#nav-home-tab {
+  background-color: #ccc;
+  color: #000;
+  border: 1px solid;
+  border-radius: 7px;
+}
+
+element.style {
+  width: auto;
+}
+.nav-link {
+  color: #000;
+  background-color: #ccc !important;
+  margin-left: 6px;
+  border: 1px solid;
+  border-radius: 7px;
+}
+
+.card-block{
+    height: 300px;
+    background-color: #fff;
+    border: none;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.2s ease-in-out !important;
+    border-radius: 24px;
+    &:hover{
+        transform: translateY(-5px);
+        box-shadow: none;
+        opacity: 0.9;
+    }
+}
+
+.card-1{
+  width: auto;
+border-radius: 28px;
+border: solid gray 1px;
+background-color: #000000;
+color: snow;
+margin-right: 5px;
+}
+.card-1:hover {
+  background-color: #ccc;
+}
+.card-1:focus {
+  background-color: #ccc;
+}
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+.icon-bar {
+  position: fixed;
+  top: 75%;
+  left: 97%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+
+
+.Card{
+dispaly:inline-flex;
+}
+.switch.btn {
+  border-radius: 17px;
+}
+.heart{
+     
+      position: relative;
+      left: 130px;
+
+}
+.footer .copyright {
+    padding: 25px 0;
+    text-align: center;
+    color: white;
+    margin: 50px 0 0;
+    border-top: 1px solid #444;
+}
+.container.logo {
+    top: 30px;
+    position: relative;
+}
+#blackout {
+  background: rgba(102, 102, 102, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+#box {
+  width: 300px;
+  height: 390px;
+  text-align: center;
+  padding: 15px;
+  border: 3px solid red;
+  border-radius: 10px;
+  color: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background: #fff;
+}
+#blackout:target {display: block;}
+.close {
+  display: inline-block;
+  border: 1px solid red;
+  color: red;
+  padding: 0 12px;
+  margin-left: -30px;
+  text-decoration: none;
+  background: #f2f2f2;
+  font-size: 14pt;
+  cursor:pointer;
+
+}
+#like:target {display: block;}
+.close {
+  display: inline-block;
+  border: 1px solid red;
+  color: red;
+  padding: 0 12px;
+  margin-left: -30px;
+  text-decoration: none;
+  background: #f2f2f2;
+  font-size: 14pt;
+  cursor:pointer;
+}
+#like {
+  background: rgba(102, 102, 102, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+#favbox {
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  padding: 15px;
+  border: 3px solid red;
+  border-radius: 10px;
+  color: #0000cc;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background: #fff;
+}
+.close:hover {background: #e6e6ff;}
+span.name {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 25px;
+  font-family: cairo;
+  font-weight: 700;
+  padding: 55px;
+}
+span.text {
+  color: rgb(0, 0, 0);
+}
+
+span.pric {
+  color: rgb(0, 0, 0);
+  padding: 90px;
+}
